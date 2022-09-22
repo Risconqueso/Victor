@@ -1,0 +1,60 @@
+h1{
+    color:aquamarine;
+    margin-top: 300px;
+
+}
+h2{
+    color:white;
+
+}
+p{color:white}
+a{
+    color:white;
+    margin-left:30px;
+    
+
+}
+*{
+    border: solid;
+}
+body{
+    background: black;
+    text-align: center;
+}
+
+.inicio{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+#juegos{
+
+  
+    columns:2;
+    
+}
+
+.juego1{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:20px;
+    padding:100px;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+
+#contenedor{
+    columns: 3;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.redes a{
+ margin-top: 300px;
+ display:flex;
+ justify-content: space-between;
+
+}
